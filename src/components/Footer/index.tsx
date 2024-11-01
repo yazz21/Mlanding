@@ -62,8 +62,10 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Large to="/">{t("Terms of Service")}</Large>
+              <Large to="/">{t("Privacy Policy")}</Large>
+              {/* <Large to="/">{t("Application Security")}</Large>
+              <Large to="/">{t("Software Principles")}</Large> */}
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -75,16 +77,16 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Addis Ababa, Ethiopia</Para>
+              <Para></Para>
+              <Para></Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
+              {/* <Large to="/">{t("Blog")}</Large>
               <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Large to="/">{t("Careers & Culture")}</Large> */}
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -144,7 +146,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
               />
-              <a
+              {/* <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -155,7 +157,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>

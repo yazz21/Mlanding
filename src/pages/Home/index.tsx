@@ -6,6 +6,9 @@ import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 
+import CardContent from "../../content/CardContent.json";
+const CardBlock = lazy(() => import("../../components/CardBlock"));
+
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -28,6 +31,12 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
+      />
+      <CardBlock 
+        title={CardContent.title} 
+        content={CardContent.text} 
+        section={CardContent.section}
+        icon="card-icon.svg"
       />
       <ContentBlock
         direction="left"
