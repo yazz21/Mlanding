@@ -27,11 +27,11 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
+      /> */}
       <CardBlock 
         title={CardContent.title} 
         content={CardContent.text} 
@@ -46,7 +46,7 @@ const Home = () => {
         icon="graphs.svg"
         id="about"
       />
-      <ContentBlock
+      {/* <ContentBlock
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
@@ -59,7 +59,7 @@ const Home = () => {
         content={ProductContent.text}
         icon="waving.svg"
         id="product"
-      />
+      /> */}
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}

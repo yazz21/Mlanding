@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "We are Software Engineers",
+  "text": "Million Technologies is a software development company established in 2024 by two passionate software engineer brothers. We are dedicated to offering tailored software solutions that solve real-world problems and empower organizations through digital transformation.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Misson",
+      "content": "To provide innovative software solutions that drive efficiency, productivity, and measurable success for our clients.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Vision",
+      "content": "To be the leading provider of advanced software solutions and the premier destination for talented developers.",
       "icon": "notes.svg"
     }
   ]

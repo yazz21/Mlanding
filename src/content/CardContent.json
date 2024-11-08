@@ -1,22 +1,37 @@
 {
-    "title": "Products and Experiance",
-    "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+    "title": "Services",
+    "text": "Million Technologies specializes in creating custom software solutions in various technologies.",
     "section": [
       {
-        "title": "Why Antd?",
-        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-        "icon": "millionlogo.svg"
+        "title": "Website Design",
+        "content": "Creating dynamic, secure, and responsive websites.",
+        "icon": "web.jpg"
       },
       {
-        "title": "Why styled-components?",
-        "content": "Styled Components gives you total control over your components.",
-        "icon": "millionlogo.svg"
+        "title": "Mobile and Desktop Application",
+        "content": "Developing cross-platform apps for various industries.",
+        "icon": "mobileapp.jpg"
       },
       {
-        "title": "Why styled-components?",
-        "content": "Styled Components gives you total control over your components.",
-        "icon": "millionlogo.svg"
+        "title": "ML and AI Solutions",
+        "content": "Creating AI-driven systems for predictive analytics, automation, and personalized experiences to optimize decision-making and improve operational efficiency.",
+        "icon": "ai.jpg"
+      },
+      {
+        "title": "eCommerce Applications Development",
+        "content": "Comprehensive eCommerce platforms with seamless user experiences.",
+        "icon": "onlineshop.jpg"
+      },
+      {
+        "title": "ERP Systems Development",
+        "content": "Custom ERP solutions tailored to streamline organizational workflows.",
+        "icon": "erp.jpg"
+      },
+      {
+        "title": "Education Application Development",
+        "content": "Building interactive online learning platforms with virtual classrooms, exam management, grading automation...",
+        "icon": "online.jpg"
       }
     ]
   }
-  
+
